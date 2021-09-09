@@ -1,4 +1,16 @@
-.container {
+.main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main h1 {
+  margin-top: -50px;
+}
+
+/* .container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -118,4 +130,4 @@
     width: 100%;
     flex-direction: column;
   }
-}
+} */
